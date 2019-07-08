@@ -14,7 +14,7 @@ from bilstm_crf import Model
 from utils import *
 
 
-with open('/data/datagrand.pkl', 'rb') as inp:
+with open('./data/datagrand.pkl', 'rb') as inp:
 	word2id = pickle.load(inp)
 	id2word = pickle.load(inp)
 	tag2id = pickle.load(inp)
